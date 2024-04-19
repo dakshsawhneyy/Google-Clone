@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    height: 48px;
+
+}
+
+.navbar{
+    margin-left: 1250px;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.flask{
+    font-size: 18px;
+}
+.google-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    margin-left: 10px;
+    
+}
+.share{
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: 100;
+}
+.share :hover{
+    background-color: #f2f2f2;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: blueviolet;
+}
+.searchbox{
+    height: 180px;
+    margin: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    padding-left: 470px;
+    margin-bottom: 210px;
+}
+
+.searchbar{
+    height: 50px;
+    width: 500px;
+    border: 1px solid black;
+    padding-left: 40px;
+    border-radius: 50px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+
+}
+.searchbar:hover{
+    border: none;
+    box-shadow: 2px 2px 10px gray;
+    background-color: #f2f2f2;
+
+}
+.icons{
+    position: absolute;
+    top: 0%;
+    width: 500px;
+    align-items: center;
+    /* padding-top: 20px; */
+    display: flex;
+    /* margin-left: 10px; */
+    padding: 12px 18px ;
+    justify-content: space-between;
+    pointer-events: none;
+    
+}
+.mic{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.buttons{
+    margin-top: 30px;
+    height: 50px;
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.buttons button{
+    margin: 20px 20px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buttons :hover{
+    border: 1px solid black;
+}
+.languages{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.languages li a{
+    text-decoration: none;
+    color: #1a0dab;
+    margin-left:8px;
+}
+.languages li{
+    display: flex;
+    font-size: 15px;
+}
+.languages li a:hover{
+    text-decoration: underline;
+}
+.row{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    color: #3c4043;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    
+}
+.row_1 a{
+    margin-left: 25px;
+}
+.row_2 a{
+    margin-right: 25px;
+
+}
+footer .row1 a{    
+    margin-left: 25px;
+    color:#3c4043
+}.row1{
+    display: flex;
+    align-items: center;
+}
