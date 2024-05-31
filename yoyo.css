@@ -178,3 +178,6 @@ footer .row1 a{
     display: flex;
     align-items: center;
 }
+footer .row2 a:hover{
+    text-decoration: underline;
+}
